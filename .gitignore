@@ -1,0 +1,11 @@
+# Ignore venv folder
+/venv/
+
+# Ignore pruebasheetpython.json
+/pruebasheetpython.json
+
+#Ignore pycache files
+*.pyc
+
+#Ignore workspace file
+bot421.code-workspace
