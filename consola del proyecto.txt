@@ -1,0 +1,983 @@
+    Directorio: C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+da---l         27/5/2024     17:19                automatizacion
+da---l         27/5/2024     17:19                cuentas
+da---l         27/5/2024     17:19                fichasTokens
+da---l         27/5/2024     17:19                models
+da---l         27/5/2024     17:19                panelControl
+da---l         27/5/2024     17:19                panelControlBroker
+da---l         27/5/2024     17:19                routes
+da---l         27/5/2024     17:19                social
+da---l         27/5/2024     17:19                static
+da---l         27/5/2024     17:19                strategies
+da---l         27/5/2024     17:19                templates
+da---l         27/5/2024     17:19                tokens
+da---l         27/5/2024     17:19                usuarios
+da---l         27/5/2024     17:19                utils
+da---l         27/5/2024     17:19                __pycache__
+-a----         27/5/2024     16:27            251 .env
+-a----         27/5/2024     16:27           5591 app.py
+-a----         27/5/2024     16:27            327 config.py
+-a----         27/5/2024     16:27            146 index.py
+-a----         27/5/2024     16:27             25 Procfile
+-a----         27/5/2024     16:27           5224 requirements.txt
+-a----         27/5/2024     16:27             15 runtime.txt
+
+
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src> pip install -r .\requirements.txt
+Fatal error in launcher: Unable to create process using '"C:\Users\Mauricio\Documents\ITCOR\bot421\venv\Scripts\python.exe"  "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\Scripts\pip.exe" install -r .\requirements.txt': El sistema no puede encontrar el archivo especificado.
+
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src> pip install -r requirements.txt  
+Fatal error in launcher: Unable to create process using '"C:\Users\Mauricio\Documents\ITCOR\bot421\venv\Scripts\python.exe"  "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\Scripts\pip.exe" install -r requirements.txt': El sistema no puede encontrar el archivo especificado.
+
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src> python --version
+Python 3.9.7
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src> python cd ..    
+C:\Users\Usuario\AppData\Local\Programs\Python\Python39\python.exe: can't open file 'C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src\cd': [Errno 2] No such file or directory
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src> cd ..
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -> ls
+
+
+    Directorio: C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+da---l         27/5/2024     17:19                .github
+da---l         27/5/2024     17:19                .vscode
+da---l         27/5/2024     17:19                src
+da---l         27/5/2024     17:22                venv
+da---l         27/5/2024     17:22                __pycache__
+-a----         27/5/2024     16:27            169 .gitignore
+-a----         27/5/2024     16:27            319 Dockerfile
+-a----         27/5/2024     16:27           1227 exit
+-a----         27/5/2024     16:27           6375 readme install.docx
+
+
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -> cd ..
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio> ls
+
+
+    Directorio: C:\Users\Usuario\OneDrive\Escritorio
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+da---l         14/5/2024     18:09                diseño
+d----l          6/5/2024     20:50                etica
+da---l         27/5/2024     17:22                gestiondetarea -
+da---l          9/4/2024     13:22                ingeneria sft
+da---l         23/5/2024     21:33                Magic.curso.net
+da---l          9/4/2024     13:18                programacion3
+da---l         26/5/2024     21:13                proyectos de interfaz
+da---l         23/4/2024     22:14                redes
+da---l          8/5/2024     11:43                testing
+-a---l         14/4/2024     19:12            725 acciones.txt
+-a---l        16/11/2023     12:32           1785 Counter-Strike 1.6.lnk
+-a---l         18/4/2024     17:05           2243 Discord.lnk
+-a---l         27/5/2024     15:07            526 etica video.txt
+-a----         23/4/2023     18:03           1764 Git Bash.lnk
+-a---l         19/8/2023     13:20           2201 Postman.lnk
+-a---l         20/5/2024     18:01       28895456 python-3.9.7-amd64.exe
+-a----          4/7/2023     15:36           1295 SQL Server Management Studio Management Studio 19.lnk
+-a---l         19/8/2023     13:18           1277 Visual Studio Code.lnk
+
+
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio> cd '.\gestiondetarea -\'
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -> pip install -r requirements.txt
+Fatal error in launcher: Unable to create process using '"C:\Users\Mauricio\Documents\ITCOR\bot421\venv\Scripts\python.exe"  "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\Scripts\pip.exe" install -r requirements.txt': El sistema no puede encontrar el archivo especificado.
+
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -> python -m venv venv
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -> ls
+
+
+    Directorio: C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+da---l         27/5/2024     17:19                .github
+da---l         27/5/2024     17:19                .vscode
+da---l         27/5/2024     17:19                src
+d-----         27/5/2024     17:39                venv
+da---l         27/5/2024     17:22                __pycache__
+-a----         27/5/2024     16:27            169 .gitignore
+-a----         27/5/2024     16:27            319 Dockerfile
+-a----         27/5/2024     16:27           1227 exit
+-a----         27/5/2024     16:27           6375 readme install.docx
+
+
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -> cd .\venv\
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv> ls
+
+
+    Directorio: C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         27/5/2024     17:39                Include
+d-----         27/5/2024     17:39                Lib
+d-----         27/5/2024     17:39                Scripts
+-a----         27/5/2024     17:39            119 pyvenv.cfg
+
+
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv> cd .\Scripts\
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\Scripts> .\activate
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\Scripts> cd ..
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv> cd ..
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -> lc 
+lc : El término 'lc' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente 
+el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ lc
++ ~~
+    + CategoryInfo          : ObjectNotFound: (lc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -> ls
+
+
+    Directorio: C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+da---l         27/5/2024     17:19                .github
+da---l         27/5/2024     17:19                .vscode
+da---l         27/5/2024     17:19                src
+d-----         27/5/2024     17:39                venv
+da---l         27/5/2024     17:22                __pycache__
+-a----         27/5/2024     16:27            169 .gitignore
+-a----         27/5/2024     16:27            319 Dockerfile
+-a----         27/5/2024     16:27           1227 exit
+-a----         27/5/2024     16:27           6375 readme install.docx
+
+
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -> cd .\src\
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src> pip install -r requirements.txt
+Collecting aiohttp==3.8.1
+  Downloading aiohttp-3.8.1-cp39-cp39-win_amd64.whl (554 kB)
+     |████████████████████████████████| 554 kB 3.3 MB/s
+Collecting aiosignal==1.2.0
+  Downloading aiosignal-1.2.0-py3-none-any.whl (8.2 kB)
+Collecting aiowebsocket==1.0.0.dev2
+  Downloading aiowebsocket-1.0.0.dev2-py3-none-any.whl (10 kB)
+Collecting anyio==3.5.0
+  Downloading anyio-3.5.0-py3-none-any.whl (79 kB)
+     |████████████████████████████████| 79 kB 228 kB/s
+Collecting asgiref==3.5.0
+  Downloading asgiref-3.5.0-py3-none-any.whl (22 kB)
+Collecting asttokens==2.2.1
+  Downloading asttokens-2.2.1-py2.py3-none-any.whl (26 kB)
+Collecting async-timeout==4.0.2
+  Downloading async_timeout-4.0.2-py3-none-any.whl (5.8 kB)
+Collecting attrs==21.4.0
+  Downloading attrs-21.4.0-py2.py3-none-any.whl (60 kB)
+     |████████████████████████████████| 60 kB 3.5 MB/s
+Collecting backcall==0.2.0
+  Downloading backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting bcrypt==4.0.1
+  Downloading bcrypt-4.0.1-cp36-abi3-win_amd64.whl (152 kB)
+     |████████████████████████████████| 152 kB 939 kB/s
+Collecting blueprint==3.4.2
+  Downloading blueprint-3.4.2.tar.gz (59 kB)
+     |████████████████████████████████| 59 kB 3.8 MB/s
+Collecting cachelib==0.10.2
+  Downloading cachelib-0.10.2-py3-none-any.whl (18 kB)
+Collecting cachetools==5.3.0
+  Downloading cachetools-5.3.0-py3-none-any.whl (9.3 kB)
+Collecting certifi==2021.10.8
+  Downloading certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+     |████████████████████████████████| 149 kB 3.3 MB/s
+Collecting cffi==1.15.0
+  Downloading cffi-1.15.0-cp39-cp39-win_amd64.whl (180 kB)
+     |████████████████████████████████| 180 kB 3.2 MB/s
+Collecting chardet==3.0.4
+  Downloading chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+     |████████████████████████████████| 133 kB 6.4 MB/s
+Collecting charset-normalizer==2.0.11
+  Downloading charset_normalizer-2.0.11-py3-none-any.whl (39 kB)
+Collecting click==8.0.3
+  Downloading click-8.0.3-py3-none-any.whl (97 kB)
+     |████████████████████████████████| 97 kB 6.4 MB/s
+Collecting colorama==0.4.4
+  Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting comm==0.1.2
+  Downloading comm-0.1.2-py3-none-any.whl (6.5 kB)
+Collecting cssselect==1.1.0
+  Downloading cssselect-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting cycler==0.11.0
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting debugpy==1.6.6
+  Downloading debugpy-1.6.6-cp39-cp39-win_amd64.whl (4.8 MB)
+     |████████████████████████████████| 4.8 MB 547 kB/s
+Collecting decorator==5.1.1
+  Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting distlib==0.3.4
+  Downloading distlib-0.3.4-py2.py3-none-any.whl (461 kB)
+     |████████████████████████████████| 461 kB 2.2 MB/s
+Collecting djlint==0.7.4
+  Downloading djlint-0.7.4-py3-none-any.whl (37 kB)
+Collecting enum34==1.1.6
+  Downloading enum34-1.1.6-py3-none-any.whl (12 kB)
+Collecting executing==1.2.0
+  Downloading executing-1.2.0-py2.py3-none-any.whl (24 kB)
+Collecting fastapi==0.74.1
+  Downloading fastapi-0.74.1-py3-none-any.whl (53 kB)
+     |████████████████████████████████| 53 kB 653 kB/s
+Collecting filelock==3.4.2
+  Downloading filelock-3.4.2-py3-none-any.whl (9.9 kB)
+Collecting Flask==2.2.3
+  Downloading Flask-2.2.3-py3-none-any.whl (101 kB)
+     |████████████████████████████████| 101 kB 2.2 MB/s
+Collecting Flask-Cors==3.0.10
+  Downloading Flask_Cors-3.0.10-py2.py3-none-any.whl (14 kB)
+Collecting Flask-Dance==6.2.0
+  Downloading flask_dance-6.2.0-py3-none-any.whl (61 kB)
+     |████████████████████████████████| 61 kB 4.8 MB/s
+Collecting Flask-JWT-Extended==4.4.4
+  Downloading Flask_JWT_Extended-4.4.4-py2.py3-none-any.whl (22 kB)
+Collecting Flask-Login==0.6.2
+  Downloading Flask_Login-0.6.2-py3-none-any.whl (17 kB)
+Collecting flask-marshmallow==0.14.0
+  Downloading flask_marshmallow-0.14.0-py2.py3-none-any.whl (10 kB)
+Collecting Flask-MySQLdb==1.0.1
+  Downloading Flask-MySQLdb-1.0.1.tar.gz (4.3 kB)
+Collecting Flask-OAuthlib==0.9.6
+  Downloading Flask_OAuthlib-0.9.6-py3-none-any.whl (40 kB)
+     |████████████████████████████████| 40 kB 871 kB/s
+Collecting Flask-SQLAlchemy==2.5.1
+  Downloading Flask_SQLAlchemy-2.5.1-py2.py3-none-any.whl (17 kB)
+Collecting fonttools==4.31.1
+  Downloading fonttools-4.31.1-py3-none-any.whl (899 kB)
+     |████████████████████████████████| 899 kB 1.6 MB/s
+Collecting frozenlist==1.3.0
+  Downloading frozenlist-1.3.0-cp39-cp39-win_amd64.whl (33 kB)
+Collecting gevent==21.12.0
+  Downloading gevent-21.12.0-cp39-cp39-win_amd64.whl (1.6 MB)
+     |████████████████████████████████| 1.6 MB 1.1 MB/s
+Collecting google-api-core==2.11.0
+  Downloading google_api_core-2.11.0-py3-none-any.whl (120 kB)
+     |████████████████████████████████| 120 kB 1.3 MB/s
+Collecting google-api-python-client==2.81.0
+  Downloading google_api_python_client-2.81.0-py2.py3-none-any.whl (11.1 MB)
+     |████████████████████████████████| 11.1 MB 1.1 MB/s
+Collecting google-auth==2.16.2
+  Downloading google_auth-2.16.2-py2.py3-none-any.whl (177 kB)
+     |████████████████████████████████| 177 kB 1.6 MB/s
+Collecting google-auth-httplib2==0.1.0
+  Downloading google_auth_httplib2-0.1.0-py2.py3-none-any.whl (9.3 kB)
+Collecting google-auth-oauthlib==1.0.0
+  Downloading google_auth_oauthlib-1.0.0-py2.py3-none-any.whl (18 kB)
+Collecting googleapis-common-protos==1.58.0
+  Downloading googleapis_common_protos-1.58.0-py2.py3-none-any.whl (223 kB)
+     |████████████████████████████████| 223 kB 2.2 MB/s
+Collecting greenlet==1.1.2
+  Downloading greenlet-1.1.2-cp39-cp39-win_amd64.whl (101 kB)
+     |████████████████████████████████| 101 kB 1.6 MB/s
+Collecting gspread==5.7.2
+  Downloading gspread-5.7.2-py3-none-any.whl (40 kB)
+     |████████████████████████████████| 40 kB 2.6 MB/s
+Collecting gunicorn==20.1.0
+  Downloading gunicorn-20.1.0-py3-none-any.whl (79 kB)
+     |████████████████████████████████| 79 kB 1.8 MB/s
+Collecting h11==0.13.0
+  Downloading h11-0.13.0-py3-none-any.whl (58 kB)
+     |████████████████████████████████| 58 kB 2.0 MB/s
+Collecting httplib2==0.21.0
+  Downloading httplib2-0.21.0-py3-none-any.whl (96 kB)
+     |████████████████████████████████| 96 kB 3.2 MB/s
+Collecting idna>=2.7
+  Downloading idna-3.7-py3-none-any.whl (66 kB)
+     |████████████████████████████████| 66 kB 2.2 MB/s
+Collecting importlib-metadata==4.11.0
+  Downloading importlib_metadata-4.11.0-py3-none-any.whl (17 kB)
+Collecting ipykernel==6.21.3
+  Downloading ipykernel-6.21.3-py3-none-any.whl (149 kB)
+     |████████████████████████████████| 149 kB 1.6 MB/s
+Collecting ipython==8.11.0
+  Downloading ipython-8.11.0-py3-none-any.whl (793 kB)
+     |████████████████████████████████| 793 kB 2.2 MB/s
+Collecting itsdangerous==2.0.1
+  Downloading itsdangerous-2.0.1-py3-none-any.whl (18 kB)
+Collecting jedi==0.18.2
+  Downloading jedi-0.18.2-py2.py3-none-any.whl (1.6 MB)
+     |████████████████████████████████| 1.6 MB 2.2 MB/s
+Collecting Jinja2==3.0.3
+  Downloading Jinja2-3.0.3-py3-none-any.whl (133 kB)
+     |████████████████████████████████| 133 kB 2.2 MB/s
+Collecting jupyter_client==8.0.3
+  Downloading jupyter_client-8.0.3-py3-none-any.whl (102 kB)
+     |████████████████████████████████| 102 kB 3.3 MB/s
+Collecting jupyter_core==5.3.0
+  Downloading jupyter_core-5.3.0-py3-none-any.whl (93 kB)
+     |████████████████████████████████| 93 kB 3.2 MB/s
+Collecting kiwisolver==1.4.0
+  Downloading kiwisolver-1.4.0-cp39-cp39-win_amd64.whl (51 kB)
+     |████████████████████████████████| 51 kB 4.1 MB/s
+Collecting lxml==4.8.0
+  Downloading lxml-4.8.0-cp39-cp39-win_amd64.whl (3.6 MB)
+     |████████████████████████████████| 3.6 MB 211 kB/s
+Collecting MarkupSafe==2.1.2
+  Downloading MarkupSafe-2.1.2-cp39-cp39-win_amd64.whl (16 kB)
+Collecting marshmallow==3.14.1
+  Downloading marshmallow-3.14.1-py3-none-any.whl (47 kB)
+     |████████████████████████████████| 47 kB 3.4 MB/s
+Collecting marshmallow-sqlalchemy==0.27.0
+  Downloading marshmallow_sqlalchemy-0.27.0-py2.py3-none-any.whl (15 kB)
+Collecting matplotlib==3.5.1
+  Downloading matplotlib-3.5.1-cp39-cp39-win_amd64.whl (7.2 MB)
+     |████████████████████████████████| 7.2 MB 1.1 MB/s
+Collecting matplotlib-inline==0.1.6
+  Downloading matplotlib_inline-0.1.6-py3-none-any.whl (9.4 kB)
+Collecting multidict==6.0.2
+  Downloading multidict-6.0.2-cp39-cp39-win_amd64.whl (28 kB)
+Collecting mysqlclient==2.1.0
+  Downloading mysqlclient-2.1.0-cp39-cp39-win_amd64.whl (180 kB)
+     |████████████████████████████████| 180 kB 2.2 MB/s
+Collecting nest-asyncio==1.5.6
+  Downloading nest_asyncio-1.5.6-py3-none-any.whl (5.2 kB)
+Collecting numpy==1.22.3
+  Downloading numpy-1.22.3-cp39-cp39-win_amd64.whl (14.7 MB)
+     |████████████████████████████████| 14.7 MB 2.2 MB/s
+Collecting oauth2client==4.1.3
+  Downloading oauth2client-4.1.3-py2.py3-none-any.whl (98 kB)
+     |████████████████████████████████| 98 kB 1.8 MB/s
+Collecting oauthlib==2.1.0
+  Downloading oauthlib-2.1.0-py2.py3-none-any.whl (121 kB)
+     |████████████████████████████████| 121 kB 1.3 MB/s
+Collecting packaging==21.3
+  Downloading packaging-21.3-py3-none-any.whl (40 kB)
+     |████████████████████████████████| 40 kB 2.5 MB/s
+Collecting pandas==1.4.1
+  Downloading pandas-1.4.1-cp39-cp39-win_amd64.whl (10.5 MB)
+     |████████████████████████████████| 10.5 MB 567 kB/s
+Collecting parso==0.8.3
+  Downloading parso-0.8.3-py2.py3-none-any.whl (100 kB)
+     |████████████████████████████████| 100 kB 1.6 MB/s
+Collecting pathspec==0.9.0
+  Downloading pathspec-0.9.0-py2.py3-none-any.whl (31 kB)
+Collecting pickleshare==0.7.5
+  Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting Pillow==9.0.1
+  Downloading Pillow-9.0.1-cp39-cp39-win_amd64.whl (3.2 MB)
+     |████████████████████████████████| 3.2 MB 284 kB/s
+Collecting platformdirs==2.5.0
+  Downloading platformdirs-2.5.0-py3-none-any.whl (14 kB)
+Collecting prompt-toolkit==3.0.38
+  Downloading prompt_toolkit-3.0.38-py3-none-any.whl (385 kB)
+     |████████████████████████████████| 385 kB 1.3 MB/s
+Collecting protobuf==4.22.1
+  Downloading protobuf-4.22.1-cp39-cp39-win_amd64.whl (420 kB)
+     |████████████████████████████████| 420 kB 819 kB/s
+Collecting psutil==5.9.4
+  Downloading psutil-5.9.4-cp36-abi3-win_amd64.whl (252 kB)
+     |████████████████████████████████| 252 kB 1.6 MB/s
+Collecting pure-eval==0.2.2
+  Downloading pure_eval-0.2.2-py3-none-any.whl (11 kB)
+Collecting pyasn1==0.4.8
+  Downloading pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+     |████████████████████████████████| 77 kB 880 kB/s
+Collecting pyasn1-modules==0.2.8
+  Downloading pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+     |████████████████████████████████| 155 kB 1.3 MB/s
+Collecting pycparser==2.21
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+     |████████████████████████████████| 118 kB 1.6 MB/s
+Collecting pydantic==1.9.0
+  Downloading pydantic-1.9.0-cp39-cp39-win_amd64.whl (2.1 MB)
+     |████████████████████████████████| 2.1 MB 3.3 MB/s
+Collecting PyDrive==1.3.1
+  Downloading PyDrive-1.3.1.tar.gz (987 kB)
+     |████████████████████████████████| 987 kB 1.6 MB/s
+Collecting Pygments==2.14.0
+  Downloading Pygments-2.14.0-py3-none-any.whl (1.1 MB)
+     |████████████████████████████████| 1.1 MB 656 kB/s
+Collecting pyhomebroker==0.48.1
+  Downloading pyhomebroker-0.48.1-py3-none-any.whl (36 kB)
+Collecting PyJWT==2.6.0
+  Downloading PyJWT-2.6.0-py3-none-any.whl (20 kB)
+Collecting PyMySQL==1.0.2
+  Downloading PyMySQL-1.0.2-py3-none-any.whl (43 kB)
+     |████████████████████████████████| 43 kB 598 kB/s
+Collecting pyparsing==3.0.7
+  Downloading pyparsing-3.0.7-py3-none-any.whl (98 kB)
+     |████████████████████████████████| 98 kB 547 kB/s
+Collecting pyquery==1.4.3
+  Downloading pyquery-1.4.3-py3-none-any.whl (22 kB)
+Collecting pyRofex==0.5.0rc1
+  Downloading pyRofex-0.5.0rc1-py3-none-any.whl (21 kB)
+Collecting python-dateutil==2.8.2
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     |████████████████████████████████| 247 kB 930 kB/s
+Collecting python-dotenv==0.19.2
+  Downloading python_dotenv-0.19.2-py2.py3-none-any.whl (17 kB)
+ERROR: Could not find a version that satisfies the requirement python-requests==0.0.0.2 (from versions: none)
+ERROR: No matching distribution found for python-requests==0.0.0.2
+WARNING: You are using pip version 21.2.3; however, version 24.0 is available.
+You should consider upgrading via the 'C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src> pip install requests
+Collecting requests
+  Downloading requests-2.32.2-py3-none-any.whl (63 kB)
+     |████████████████████████████████| 63 kB 1.5 MB/s
+Collecting idna<4,>=2.5
+  Using cached idna-3.7-py3-none-any.whl (66 kB)
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.3.2-cp39-cp39-win_amd64.whl (100 kB)
+     |████████████████████████████████| 100 kB 6.4 MB/s
+Collecting certifi>=2017.4.17
+  Downloading certifi-2024.2.2-py3-none-any.whl (163 kB)
+     |████████████████████████████████| 163 kB 6.4 MB/s
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-2.2.1-py3-none-any.whl (121 kB)
+     |████████████████████████████████| 121 kB 6.8 MB/s
+Installing collected packages: urllib3, idna, charset-normalizer, certifi, requests
+Successfully installed certifi-2024.2.2 charset-normalizer-3.3.2 idna-3.7 requests-2.32.2 urllib3-2.2.1
+WARNING: You are using pip version 21.2.3; however, version 24.0 is available.
+You should consider upgrading via the 'C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src> pip install -r requirements.txt
+Collecting aiohttp==3.8.1
+  Using cached aiohttp-3.8.1-cp39-cp39-win_amd64.whl (554 kB)
+Collecting aiosignal==1.2.0
+  Using cached aiosignal-1.2.0-py3-none-any.whl (8.2 kB)
+Collecting aiowebsocket==1.0.0.dev2
+  Using cached aiowebsocket-1.0.0.dev2-py3-none-any.whl (10 kB)
+Collecting anyio==3.5.0
+  Using cached anyio-3.5.0-py3-none-any.whl (79 kB)
+Collecting asgiref==3.5.0
+  Using cached asgiref-3.5.0-py3-none-any.whl (22 kB)
+Collecting asttokens==2.2.1
+  Using cached asttokens-2.2.1-py2.py3-none-any.whl (26 kB)
+Collecting async-timeout==4.0.2
+  Using cached async_timeout-4.0.2-py3-none-any.whl (5.8 kB)
+Collecting attrs==21.4.0
+  Using cached attrs-21.4.0-py2.py3-none-any.whl (60 kB)
+Collecting backcall==0.2.0
+  Using cached backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting bcrypt==4.0.1
+  Using cached bcrypt-4.0.1-cp36-abi3-win_amd64.whl (152 kB)
+Collecting blueprint==3.4.2
+  Using cached blueprint-3.4.2.tar.gz (59 kB)
+Collecting cachelib==0.10.2
+  Using cached cachelib-0.10.2-py3-none-any.whl (18 kB)
+Collecting cachetools==5.3.0
+  Using cached cachetools-5.3.0-py3-none-any.whl (9.3 kB)
+Collecting certifi==2021.10.8
+  Using cached certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+Collecting cffi==1.15.0
+  Using cached cffi-1.15.0-cp39-cp39-win_amd64.whl (180 kB)
+Collecting chardet==3.0.4
+  Using cached chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Collecting charset-normalizer==2.0.11
+  Using cached charset_normalizer-2.0.11-py3-none-any.whl (39 kB)
+Collecting click==8.0.3
+  Using cached click-8.0.3-py3-none-any.whl (97 kB)
+Collecting colorama==0.4.4
+  Using cached colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting comm==0.1.2
+  Using cached comm-0.1.2-py3-none-any.whl (6.5 kB)
+Collecting cssselect==1.1.0
+  Using cached cssselect-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting cycler==0.11.0
+  Using cached cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting debugpy==1.6.6
+  Using cached debugpy-1.6.6-cp39-cp39-win_amd64.whl (4.8 MB)
+Collecting decorator==5.1.1
+  Using cached decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting distlib==0.3.4
+  Using cached distlib-0.3.4-py2.py3-none-any.whl (461 kB)
+Collecting djlint==0.7.4
+  Using cached djlint-0.7.4-py3-none-any.whl (37 kB)
+Collecting enum34==1.1.6
+  Using cached enum34-1.1.6-py3-none-any.whl (12 kB)
+Collecting executing==1.2.0
+  Using cached executing-1.2.0-py2.py3-none-any.whl (24 kB)
+Collecting fastapi==0.74.1
+  Using cached fastapi-0.74.1-py3-none-any.whl (53 kB)
+Collecting filelock==3.4.2
+  Using cached filelock-3.4.2-py3-none-any.whl (9.9 kB)
+Collecting Flask==2.2.3
+  Using cached Flask-2.2.3-py3-none-any.whl (101 kB)
+Collecting Flask-Cors==3.0.10
+  Using cached Flask_Cors-3.0.10-py2.py3-none-any.whl (14 kB)
+Collecting Flask-Dance==6.2.0
+  Using cached flask_dance-6.2.0-py3-none-any.whl (61 kB)
+Collecting Flask-JWT-Extended==4.4.4
+  Using cached Flask_JWT_Extended-4.4.4-py2.py3-none-any.whl (22 kB)
+Collecting Flask-Login==0.6.2
+  Using cached Flask_Login-0.6.2-py3-none-any.whl (17 kB)
+Collecting flask-marshmallow==0.14.0
+  Using cached flask_marshmallow-0.14.0-py2.py3-none-any.whl (10 kB)
+Collecting Flask-MySQLdb==1.0.1
+  Using cached Flask-MySQLdb-1.0.1.tar.gz (4.3 kB)
+Collecting Flask-OAuthlib==0.9.6
+  Using cached Flask_OAuthlib-0.9.6-py3-none-any.whl (40 kB)
+Collecting Flask-SQLAlchemy==2.5.1
+  Using cached Flask_SQLAlchemy-2.5.1-py2.py3-none-any.whl (17 kB)
+Collecting fonttools==4.31.1
+  Using cached fonttools-4.31.1-py3-none-any.whl (899 kB)
+Collecting frozenlist==1.3.0
+  Using cached frozenlist-1.3.0-cp39-cp39-win_amd64.whl (33 kB)
+Collecting gevent==21.12.0
+  Using cached gevent-21.12.0-cp39-cp39-win_amd64.whl (1.6 MB)
+Collecting google-api-core==2.11.0
+  Using cached google_api_core-2.11.0-py3-none-any.whl (120 kB)
+Collecting google-api-python-client==2.81.0
+  Using cached google_api_python_client-2.81.0-py2.py3-none-any.whl (11.1 MB)
+Collecting google-auth==2.16.2
+  Using cached google_auth-2.16.2-py2.py3-none-any.whl (177 kB)
+Collecting google-auth-httplib2==0.1.0
+  Using cached google_auth_httplib2-0.1.0-py2.py3-none-any.whl (9.3 kB)
+Collecting google-auth-oauthlib==1.0.0
+  Using cached google_auth_oauthlib-1.0.0-py2.py3-none-any.whl (18 kB)
+Collecting googleapis-common-protos==1.58.0
+  Using cached googleapis_common_protos-1.58.0-py2.py3-none-any.whl (223 kB)
+Collecting greenlet==1.1.2
+  Using cached greenlet-1.1.2-cp39-cp39-win_amd64.whl (101 kB)
+Collecting gspread==5.7.2
+  Using cached gspread-5.7.2-py3-none-any.whl (40 kB)
+Collecting gunicorn==20.1.0
+  Using cached gunicorn-20.1.0-py3-none-any.whl (79 kB)
+Collecting h11==0.13.0
+  Using cached h11-0.13.0-py3-none-any.whl (58 kB)
+Collecting httplib2==0.21.0
+  Using cached httplib2-0.21.0-py3-none-any.whl (96 kB)
+Requirement already satisfied: idna>=2.7 in c:\users\usuario\onedrive\escritorio\gestiondetarea -\venv\lib\site-packages (from -r requirements.txt (line 54)) (3.7)
+Collecting importlib-metadata==4.11.0
+  Using cached importlib_metadata-4.11.0-py3-none-any.whl (17 kB)
+Collecting ipykernel==6.21.3
+  Using cached ipykernel-6.21.3-py3-none-any.whl (149 kB)
+Collecting ipython==8.11.0
+  Using cached ipython-8.11.0-py3-none-any.whl (793 kB)
+Collecting itsdangerous==2.0.1
+  Using cached itsdangerous-2.0.1-py3-none-any.whl (18 kB)
+Collecting jedi==0.18.2
+  Using cached jedi-0.18.2-py2.py3-none-any.whl (1.6 MB)
+Collecting Jinja2==3.0.3
+  Using cached Jinja2-3.0.3-py3-none-any.whl (133 kB)
+Collecting jupyter_client==8.0.3
+  Using cached jupyter_client-8.0.3-py3-none-any.whl (102 kB)
+Collecting jupyter_core==5.3.0
+  Using cached jupyter_core-5.3.0-py3-none-any.whl (93 kB)
+Collecting kiwisolver==1.4.0
+  Using cached kiwisolver-1.4.0-cp39-cp39-win_amd64.whl (51 kB)
+Collecting lxml==4.8.0
+  Using cached lxml-4.8.0-cp39-cp39-win_amd64.whl (3.6 MB)
+Collecting MarkupSafe==2.1.2
+  Using cached MarkupSafe-2.1.2-cp39-cp39-win_amd64.whl (16 kB)
+Collecting marshmallow==3.14.1
+  Using cached marshmallow-3.14.1-py3-none-any.whl (47 kB)
+Collecting marshmallow-sqlalchemy==0.27.0
+  Using cached marshmallow_sqlalchemy-0.27.0-py2.py3-none-any.whl (15 kB)
+Collecting matplotlib==3.5.1
+  Using cached matplotlib-3.5.1-cp39-cp39-win_amd64.whl (7.2 MB)
+Collecting matplotlib-inline==0.1.6
+  Using cached matplotlib_inline-0.1.6-py3-none-any.whl (9.4 kB)
+Collecting multidict==6.0.2
+  Using cached multidict-6.0.2-cp39-cp39-win_amd64.whl (28 kB)
+Collecting mysqlclient==2.1.0
+  Using cached mysqlclient-2.1.0-cp39-cp39-win_amd64.whl (180 kB)
+Collecting nest-asyncio==1.5.6
+  Using cached nest_asyncio-1.5.6-py3-none-any.whl (5.2 kB)
+Collecting numpy==1.22.3
+  Using cached numpy-1.22.3-cp39-cp39-win_amd64.whl (14.7 MB)
+Collecting oauth2client==4.1.3
+  Using cached oauth2client-4.1.3-py2.py3-none-any.whl (98 kB)
+Collecting oauthlib==2.1.0
+  Using cached oauthlib-2.1.0-py2.py3-none-any.whl (121 kB)
+Collecting packaging==21.3
+  Using cached packaging-21.3-py3-none-any.whl (40 kB)
+Collecting pandas==1.4.1
+  Using cached pandas-1.4.1-cp39-cp39-win_amd64.whl (10.5 MB)
+Collecting parso==0.8.3
+  Using cached parso-0.8.3-py2.py3-none-any.whl (100 kB)
+Collecting pathspec==0.9.0
+  Using cached pathspec-0.9.0-py2.py3-none-any.whl (31 kB)
+Collecting pickleshare==0.7.5
+  Using cached pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting Pillow==9.0.1
+  Using cached Pillow-9.0.1-cp39-cp39-win_amd64.whl (3.2 MB)
+Collecting platformdirs==2.5.0
+  Using cached platformdirs-2.5.0-py3-none-any.whl (14 kB)
+Collecting prompt-toolkit==3.0.38
+  Using cached prompt_toolkit-3.0.38-py3-none-any.whl (385 kB)
+Collecting protobuf==4.22.1
+  Using cached protobuf-4.22.1-cp39-cp39-win_amd64.whl (420 kB)
+Collecting psutil==5.9.4
+  Using cached psutil-5.9.4-cp36-abi3-win_amd64.whl (252 kB)
+Collecting pure-eval==0.2.2
+  Using cached pure_eval-0.2.2-py3-none-any.whl (11 kB)
+Collecting pyasn1==0.4.8
+  Using cached pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+Collecting pyasn1-modules==0.2.8
+  Using cached pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+Collecting pycparser==2.21
+  Using cached pycparser-2.21-py2.py3-none-any.whl (118 kB)
+Collecting pydantic==1.9.0
+  Using cached pydantic-1.9.0-cp39-cp39-win_amd64.whl (2.1 MB)
+Collecting PyDrive==1.3.1
+  Using cached PyDrive-1.3.1.tar.gz (987 kB)
+Collecting Pygments==2.14.0
+  Using cached Pygments-2.14.0-py3-none-any.whl (1.1 MB)
+Collecting pyhomebroker==0.48.1
+  Using cached pyhomebroker-0.48.1-py3-none-any.whl (36 kB)
+Collecting PyJWT==2.6.0
+  Using cached PyJWT-2.6.0-py3-none-any.whl (20 kB)
+Collecting PyMySQL==1.0.2
+  Using cached PyMySQL-1.0.2-py3-none-any.whl (43 kB)
+Collecting pyparsing==3.0.7
+  Using cached pyparsing-3.0.7-py3-none-any.whl (98 kB)
+Collecting pyquery==1.4.3
+  Using cached pyquery-1.4.3-py3-none-any.whl (22 kB)
+Collecting pyRofex==0.5.0rc1
+  Using cached pyRofex-0.5.0rc1-py3-none-any.whl (21 kB)
+Collecting python-dateutil==2.8.2
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting python-dotenv==0.19.2
+  Using cached python_dotenv-0.19.2-py2.py3-none-any.whl (17 kB)
+Collecting pytz==2021.3
+  Downloading pytz-2021.3-py2.py3-none-any.whl (503 kB)
+     |████████████████████████████████| 503 kB 1.1 MB/s
+Collecting pywin32==305
+  Downloading pywin32-305-cp39-cp39-win_amd64.whl (12.2 MB)
+     |████████████████████████████████| 12.2 MB 997 kB/s
+Collecting PyYAML==6.0
+  Downloading PyYAML-6.0-cp39-cp39-win_amd64.whl (151 kB)
+     |████████████████████████████████| 151 kB 1.6 MB/s
+Collecting pyzmq==25.0.2
+  Downloading pyzmq-25.0.2-cp39-cp39-win_amd64.whl (1.1 MB)
+     |████████████████████████████████| 1.1 MB 1.1 MB/s
+Collecting regex==2022.1.18
+  Downloading regex-2022.1.18-cp39-cp39-win_amd64.whl (273 kB)
+     |████████████████████████████████| 273 kB 731 kB/s
+Collecting requests==2.28.2
+  Downloading requests-2.28.2-py3-none-any.whl (62 kB)
+     |████████████████████████████████| 62 kB 918 kB/s
+Collecting requests-oauthlib==1.1.0
+  Downloading requests_oauthlib-1.1.0-py2.py3-none-any.whl (21 kB)
+Collecting rsa==4.9
+  Downloading rsa-4.9-py3-none-any.whl (34 kB)
+Collecting signalr-client-threads==0.0.12
+  Downloading signalr_client_threads-0.0.12-py2.py3-none-any.whl (9.7 kB)
+Collecting simplejson==3.10.0
+  Downloading simplejson-3.10.0.tar.gz (77 kB)
+     |████████████████████████████████| 77 kB 580 kB/s
+Collecting six==1.16.0
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sniffio==1.2.0
+  Downloading sniffio-1.2.0-py3-none-any.whl (10 kB)
+Collecting SQLAlchemy==1.4.31
+  Downloading SQLAlchemy-1.4.31-cp39-cp39-win_amd64.whl (1.6 MB)
+     |████████████████████████████████| 1.6 MB 819 kB/s
+Collecting sseclient==0.0.27
+  Downloading sseclient-0.0.27.tar.gz (7.5 kB)
+Collecting stack-data==0.6.2
+  Downloading stack_data-0.6.2-py3-none-any.whl (24 kB)
+Collecting starlette==0.17.1
+  Downloading starlette-0.17.1-py3-none-any.whl (58 kB)
+     |████████████████████████████████| 58 kB 231 kB/s
+Collecting tomlkit==0.8.0
+  Downloading tomlkit-0.8.0-py3-none-any.whl (33 kB)
+Collecting tornado==6.2
+  Downloading tornado-6.2-cp37-abi3-win_amd64.whl (425 kB)
+     |████████████████████████████████| 425 kB 819 kB/s
+Collecting tqdm==4.62.3
+  Downloading tqdm-4.62.3-py2.py3-none-any.whl (76 kB)
+     |████████████████████████████████| 76 kB 1.3 MB/s
+Collecting traitlets==5.9.0
+  Downloading traitlets-5.9.0-py3-none-any.whl (117 kB)
+     |████████████████████████████████| 117 kB 939 kB/s
+Collecting typing_extensions==4.1.1
+  Downloading typing_extensions-4.1.1-py3-none-any.whl (26 kB)
+Collecting upgrade-requirements==1.7.0
+  Downloading upgrade-requirements-1.7.0.tar.gz (3.6 kB)
+Collecting uritemplate==4.1.1
+  Downloading uritemplate-4.1.1-py2.py3-none-any.whl (10 kB)
+Collecting urllib3==1.24.3
+  Downloading urllib3-1.24.3-py2.py3-none-any.whl (118 kB)
+     |████████████████████████████████| 118 kB 1.3 MB/s
+Collecting URLObject==2.4.3
+  Downloading URLObject-2.4.3.tar.gz (27 kB)
+Collecting uvicorn==0.17.5
+  Downloading uvicorn-0.17.5-py3-none-any.whl (53 kB)
+     |████████████████████████████████| 53 kB 1.3 MB/s
+Collecting virtualenv==20.13.1
+  Downloading virtualenv-20.13.1-py2.py3-none-any.whl (8.6 MB)
+     |████████████████████████████████| 8.6 MB 2.2 MB/s
+Collecting wcwidth==0.2.6
+  Downloading wcwidth-0.2.6-py2.py3-none-any.whl (29 kB)
+Collecting websocket==0.2.1
+  Downloading websocket-0.2.1.tar.gz (195 kB)
+     |████████████████████████████████| 195 kB 1.3 MB/s
+Collecting websocket-client==0.54.0
+  Downloading websocket_client-0.54.0-py2.py3-none-any.whl (200 kB)
+     |████████████████████████████████| 200 kB 3.3 MB/s
+Collecting websockets==10.4
+  Downloading websockets-10.4-cp39-cp39-win_amd64.whl (101 kB)
+     |████████████████████████████████| 101 kB 2.2 MB/s
+Collecting Werkzeug==2.2.3
+  Downloading Werkzeug-2.2.3-py3-none-any.whl (233 kB)
+     |████████████████████████████████| 233 kB 3.2 MB/s
+Collecting xlwings==0.27.1
+  Downloading xlwings-0.27.1-py3-none-any.whl (1.0 MB)
+     |████████████████████████████████| 1.0 MB 3.2 MB/s
+Collecting yarl==1.7.2
+  Downloading yarl-1.7.2-cp39-cp39-win_amd64.whl (122 kB)
+     |████████████████████████████████| 122 kB 2.2 MB/s
+Collecting zipp==3.7.0
+  Downloading zipp-3.7.0-py3-none-any.whl (5.3 kB)
+Collecting zope.event==4.5.0
+  Downloading zope.event-4.5.0-py2.py3-none-any.whl (6.8 kB)
+Collecting zope.interface==5.4.0
+  Downloading zope.interface-5.4.0-cp39-cp39-win_amd64.whl (210 kB)
+     |████████████████████████████████| 210 kB 2.2 MB/s
+Requirement already satisfied: setuptools in c:\users\usuario\onedrive\escritorio\gestiondetarea -\venv\lib\site-packages (from gevent==21.12.0->-r requirements.txt (line 42)) (57.4.0)
+Using legacy 'setup.py install' for blueprint, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for Flask-MySQLdb, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for PyDrive, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for simplejson, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for sseclient, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for upgrade-requirements, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for URLObject, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for websocket, since package 'wheel' is not installed.
+Installing collected packages: pyasn1, urllib3, six, rsa, pyparsing, pyasn1-modules, protobuf, charset-normalizer, certifi, cachetools, zipp, wcwidth, traitlets, sniffio, requests, pywin32, pycparser, pure-eval, platformdirs, parso, oauthlib, MarkupSafe, httplib2, googleapis-common-protos, google-auth, executing, colorama, asttokens, zope.interface, zope.event, Werkzeug, websocket-client, uritemplate, typing-extensions, tornado, stack-data, sseclient, requests-oauthlib, pyzmq, pytz, python-dateutil, Pygments, prompt-toolkit, pickleshare, numpy, multidict, matplotlib-inline, lxml, jupyter-core, Jinja2, jedi, itsdangerous, importlib-metadata, greenlet, google-auth-httplib2, google-api-core, frozenlist, decorator, cssselect, click, cffi, backcall, anyio, yarl, URLObject, tqdm, tomlkit, starlette, SQLAlchemy, simplejson, signalr-client-threads, regex, PyYAML, pyquery, PyJWT, pydantic, psutil, Pillow, pathspec, pandas, packaging, oauth2client, nest-asyncio, mysqlclient, marshmallow, kiwisolver, jupyter-client, ipython, h11, google-auth-oauthlib, google-api-python-client, gevent, fonttools, Flask, filelock, enum34, distlib, debugpy, cycler, comm, cachelib, attrs, async-timeout, asgiref, aiosignal, xlwings, websockets, websocket, virtualenv, uvicorn, upgrade-requirements, python-dotenv, pyRofex, PyMySQL, pyhomebroker, PyDrive, matplotlib, marshmallow-sqlalchemy, ipykernel, gunicorn, gspread, Flask-SQLAlchemy, Flask-OAuthlib, Flask-MySQLdb, flask-marshmallow, Flask-Login, Flask-JWT-Extended, Flask-Dance, Flask-Cors, fastapi, djlint, chardet, blueprint, bcrypt, aiowebsocket, aiohttp
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 2.2.1
+    Uninstalling urllib3-2.2.1:
+      Successfully uninstalled urllib3-2.2.1
+  Attempting uninstall: charset-normalizer
+    Found existing installation: charset-normalizer 3.3.2
+    Uninstalling charset-normalizer-3.3.2:
+      Successfully uninstalled charset-normalizer-3.3.2
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2024.2.2
+    Uninstalling certifi-2024.2.2:
+      Successfully uninstalled certifi-2024.2.2
+  Attempting uninstall: requests
+    Found existing installation: requests 2.32.2
+    Uninstalling requests-2.32.2:
+      Successfully uninstalled requests-2.32.2
+    Running setup.py install for sseclient ... done
+    Running setup.py install for URLObject ... done
+    Running setup.py install for simplejson ... done
+    Running setup.py install for websocket ... done
+    Running setup.py install for upgrade-requirements ... done
+    Running setup.py install for PyDrive ... done
+    Running setup.py install for Flask-MySQLdb ... done
+    Running setup.py install for blueprint ... done
+Successfully installed Flask-2.2.3 Flask-Cors-3.0.10 Flask-Dance-6.2.0 Flask-JWT-Extended-4.4.4 Flask-Login-0.6.2 Flask-MySQLdb-1.0.1 Flask-OAuthlib-0.9.6 Flask-SQLAlchemy-2.5.1 Jinja2-3.0.3 MarkupSafe-2.1.2 Pillow-9.0.1 PyDrive-1.3.1 PyJWT-2.6.0 PyMySQL-1.0.2 PyYAML-6.0 Pygments-2.14.0 SQLAlchemy-1.4.31 URLObject-2.4.3 Werkzeug-2.2.3 aiohttp-3.8.1 aiosignal-1.2.0 aiowebsocket-1.0.0.dev2 anyio-3.5.0 asgiref-3.5.0 asttokens-2.2.1 async-timeout-4.0.2 attrs-21.4.0 backcall-0.2.0 bcrypt-4.0.1 blueprint-3.4.2 cachelib-0.10.2 cachetools-5.3.0 certifi-2021.10.8 cffi-1.15.0 chardet-3.0.4 charset-normalizer-2.0.11 click-8.0.3 colorama-0.4.4 comm-0.1.2 cssselect-1.1.0 cycler-0.11.0 debugpy-1.6.6 decorator-5.1.1 distlib-0.3.4 djlint-0.7.4 enum34-1.1.6 executing-1.2.0 fastapi-0.74.1 filelock-3.4.2 flask-marshmallow-0.14.0 fonttools-4.31.1 frozenlist-1.3.0 gevent-21.12.0 google-api-core-2.11.0 google-api-python-client-2.81.0 google-auth-2.16.2 google-auth-httplib2-0.1.0 google-auth-oauthlib-1.0.0 googleapis-common-protos-1.58.0 greenlet-1.1.2 gspread-5.7.2 gunicorn-20.1.0 h11-0.13.0 httplib2-0.21.0 importlib-metadata-4.11.0 ipykernel-6.21.3 ipython-8.11.0 itsdangerous-2.0.1 jedi-0.18.2 jupyter-client-8.0.3 jupyter-core-5.3.0 kiwisolver-1.4.0 lxml-4.8.0 marshmallow-3.14.1 marshmallow-sqlalchemy-0.27.0 matplotlib-3.5.1 matplotlib-inline-0.1.6 multidict-6.0.2 mysqlclient-2.1.0 nest-asyncio-1.5.6 numpy-1.22.3 oauth2client-4.1.3 oauthlib-2.1.0 packaging-21.3 pandas-1.4.1 parso-0.8.3 pathspec-0.9.0 pickleshare-0.7.5 platformdirs-2.5.0 prompt-toolkit-3.0.38 protobuf-4.22.1 psutil-5.9.4 pure-eval-0.2.2 pyRofex-0.5.0rc1 pyasn1-0.4.8 pyasn1-modules-0.2.8 pycparser-2.21 pydantic-1.9.0 pyhomebroker-0.48.1 pyparsing-3.0.7 pyquery-1.4.3 python-dateutil-2.8.2 python-dotenv-0.19.2 pytz-2021.3 pywin32-305 pyzmq-25.0.2 regex-2022.1.18 requests-2.28.2 requests-oauthlib-1.1.0 rsa-4.9 signalr-client-threads-0.0.12 simplejson-3.10.0 six-1.16.0 sniffio-1.2.0 sseclient-0.0.27 stack-data-0.6.2 starlette-0.17.1 tomlkit-0.8.0 tornado-6.2 tqdm-4.62.3 traitlets-5.9.0 typing-extensions-4.1.1 upgrade-requirements-1.7.0 uritemplate-4.1.1 urllib3-1.24.3 uvicorn-0.17.5 virtualenv-20.13.1 wcwidth-0.2.6 websocket-0.2.1 websocket-client-0.54.0 websockets-10.4 xlwings-0.27.1 yarl-1.7.2 zipp-3.7.0 zope.event-4.5.0 zope.interface-5.4.0
+WARNING: You are using pip version 21.2.3; however, version 24.0 is available.
+You should consider upgrading via the 'C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src> la     
+la : El término 'la' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente 
+el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ la
++ ~~
+    + CategoryInfo          : ObjectNotFound: (la:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src> ls
+
+
+    Directorio: C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+da---l         27/5/2024     17:19                automatizacion
+da---l         27/5/2024     17:19                cuentas
+da---l         27/5/2024     17:19                fichasTokens
+da---l         27/5/2024     17:19                models
+da---l         27/5/2024     17:19                panelControl
+da---l         27/5/2024     17:19                panelControlBroker
+da---l         27/5/2024     17:19                routes
+da---l         27/5/2024     17:19                social
+da---l         27/5/2024     17:19                static
+da---l         27/5/2024     17:19                strategies
+da---l         27/5/2024     17:19                templates
+da---l         27/5/2024     17:19                tokens
+da---l         27/5/2024     17:19                usuarios
+da---l         27/5/2024     17:19                utils
+da---l         27/5/2024     17:19                __pycache__
+-a----         27/5/2024     16:27            251 .env
+-a----         27/5/2024     16:27           5591 app.py
+-a----         27/5/2024     16:27            327 config.py
+-a----         27/5/2024     16:27            146 index.py
+-a----         27/5/2024     16:27             25 Procfile
+-a----         27/5/2024     17:42           5172 requirements.txt
+-a----         27/5/2024     16:27             15 runtime.txt
+
+
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src> python .\app.py
+Traceback (most recent call last):
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src\app.py", line 47, in <module>
+    from automatizacion.programar_trigger import programar_trigger
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src\automatizacion\programar_trigger.py", line 15, in <module>
+    import schedule
+ModuleNotFoundError: No module named 'schedule'
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src> python .\app.py
+Traceback (most recent call last):
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src\app.py", line 63, in <module>
+    import schedule
+ModuleNotFoundError: No module named 'schedule'
+(venv) PS C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src> python .\app.py
+mysql+pymysql://root:@localhost/flaskmysql
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.11.50:5000
+Press CTRL+C to quit
+ * Restarting with stat
+mysql+pymysql://root:@localhost/flaskmysql
+ * Debugger is active!
+ * Debugger PIN: 448-349-330
+127.0.0.1 - - [27/May/2024 17:47:49] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\engine\base.py", line 3250, in _wrap_pool_connect     
+    return fn()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection        
+    return _ConnectionRecord(self)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\pymysql\connections.py", line 633, in connect
+    self._request_authentication()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\pymysql\connections.py", line 907, in _request_authentication    
+    auth_packet = self._read_packet()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: NO)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\flask\app.py", line 2551, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\flask\app.py", line 2531, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src\app.py", line 150, in entrada
+    crea_tablas_DB()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src\models\creaTablas.py", line 21, in crea_tablas_DB
+    Usuario.crear_tabla_usuarios()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\src\models\usuario.py", line 59, in crear_tabla_usuarios
+    insp = inspect(db.engine)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\inspection.py", line 64, in inspect
+    ret = reg(subject)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\engine\reflection.py", line 182, in _engine_insp      
+    return Inspector._construct(Inspector._init_engine, bind)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\engine\reflection.py", line 117, in _construct        
+    init(self, bind)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\engine\reflection.py", line 128, in _init_engine      
+    engine.connect().close()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\engine\base.py", line 3204, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\engine\base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\engine\base.py", line 3283, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\engine\base.py", line 3253, in _wrap_pool_connect     
+    Connection._handle_dbapi_exception_noconnection(
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2100, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\engine\base.py", line 3250, in _wrap_pool_connect     
+    return fn()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection        
+    return _ConnectionRecord(self)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\pymysql\connections.py", line 633, in connect
+    self._request_authentication()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\pymysql\connections.py", line 907, in _request_authentication    
+    auth_packet = self._read_packet()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Usuario\OneDrive\Escritorio\gestiondetarea -\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: NO)")
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+127.0.0.1 - - [27/May/2024 17:47:49] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/May/2024 17:47:49] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [27/May/2024 17:47:50] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [27/May/2024 17:47:50] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -

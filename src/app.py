@@ -60,7 +60,6 @@ from flask_login import LoginManager
 from flask_oauthlib.client import OAuth
 from flask_cors import CORS
 from flask_dance.contrib.google import make_google_blueprint, google
-import schedule
 import time
 
 

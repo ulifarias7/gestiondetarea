@@ -12,7 +12,6 @@ from models.cuentas import Cuenta
 from models.triggerEstrategia import TriggerEstrategia
 from datetime import datetime, timedelta, time
 import smtplib
-import schedule
 import time
 import strategies.estrategias as estrategias
 from utils.common import Marshmallow, db
