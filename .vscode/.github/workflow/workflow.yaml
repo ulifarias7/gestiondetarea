@@ -2,10 +2,41 @@
 name: IC
 
 #eventos que activaran el flujo de trabajo
-on: [push,pull_request] 
+# on: [push,pull_request] 
+
+# jobs:
+#    mi_trabajo:
+#      runs-on: windows #especificacion de mi sistema operativo
+#      steps:
+#        - run: echo "¡hola,mundo!" #comando que se ejecutara 
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+schedule:
+- cron: '0 0 * * 0' #cada domingo a las 00:00
 
 jobs:
-   mi_trabajo:
-     runs-on: windows #especificacion de mi sistema operativo
-     steps:
-       - run: echo "¡hola,mundo!" #comando que se ejecutara 
+  build:
+    runs-on: windows-latest #sistema operativo que uses
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9.7'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run tests
+      run: |
+        pytest
+

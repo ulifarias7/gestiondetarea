@@ -13,5 +13,3 @@ COPY ./src /src
 # Comando para ejecutar la aplicación
 ENTRYPOINT ["python", "./app.py"]
 
-
-
