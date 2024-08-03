@@ -1,0 +1,11 @@
+#nombre del flujo de trabajo
+name: IC
+
+#eventos que activaran el flujo de trabajo
+on: [push,pull_request] 
+
+jobs:
+   mi_trabajo:
+     runs-on: windows #especificacion de mi sistema operativo
+     steps:
+       - run: echo "¡hola,mundo!" #comando que se ejecutara 
