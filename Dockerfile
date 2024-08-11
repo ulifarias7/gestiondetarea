@@ -1,15 +1,17 @@
+# Usa una imagen base de Python
 FROM python:3.9.7
 
-WORKDIR /src
+# Configura el directorio de trabajo
+WORKDIR /app
 
-# Copiar el resto de los archivos
-COPY src/requirements.txt .
+# Copia el archivo requirements.txt desde la carpeta src a /app
+COPY src/requirements.txt /app/
 
-# Instala las dependencias desde el archivo requirements.txt
+# Instala las dependencias desde requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY ./src /src
+# Copia todo el contenido de src a /app
+COPY src/ /src
 
-# Comando para ejecutar la aplicación
-ENTRYPOINT ["python", "./app.py"]
-
+# Comando por defecto para ejecutar tu aplicación (ajusta según sea necesario)
+CMD ["python", "main.py"]

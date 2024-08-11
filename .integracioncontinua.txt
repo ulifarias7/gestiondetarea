@@ -1,3 +1,38 @@
+/proyecto
+  ├── /src
+  │   ├── requirements.txt
+  │   └── otros archivos y carpetas
+  ├── /venv
+  ├── Dockerfile
+  ├── .gitignore
+  ├── /github (u otra carpeta relacionada con GitHub)
+  └── otros archivos y carpetas
+
+# Usa una imagen base de Python
+FROM python:3.9.7
+
+# Configura el directorio de trabajo
+WORKDIR /app
+
+# Copia el archivo requirements.txt desde la carpeta src a /app
+COPY src/requirements.txt /app/
+
+# Instala las dependencias desde requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copia todo el contenido de src a /app
+COPY src/ /app/
+
+# Comando por defecto para ejecutar tu aplicación (ajusta según sea necesario)
+CMD ["python", "main.py"]
+
+
+
+
+
+
+
+
 name: IC
 
 on:
@@ -11,7 +46,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest  # Cambiar a Ubuntu para mejor compatibilidad con Docker
 
     steps:
     - name: Checkout code
