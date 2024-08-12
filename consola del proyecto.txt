@@ -986,3 +986,47 @@ Python index.py para ejecutar.
 
 borrar en app un import 
 y en automatizacion.
+
+
+
+
+
+Asegúrate de tener Python instalado:
+Verifica si Python está instalado abriendo una terminal y ejecutando:
+bash
+Copiar código
+python --version
+o
+bash
+Copiar código
+python3 --version
+Si no está instalado, puedes descargarlo e instalarlo desde la página oficial de Python.
+2. Instala las dependencias del proyecto:
+Si tu proyecto tiene un archivo requirements.txt que contiene las dependencias necesarias, instala las dependencias usando:
+bash
+Copiar código
+pip install -r requirements.txt
+Si usas un entorno virtual (recomendado), crea y activa el entorno virtual antes de instalar las dependencias:
+bash
+Copiar código
+# Crear un entorno virtual
+python -m venv venv
+
+# Activar el entorno virtual en Windows
+.\venv\Scripts\activate
+
+# Activar el entorno virtual en macOS/Linux
+source venv/bin/activate
+
+# Instalar dependencias
+pip install -r requirements.txt
+3. Ejecuta el proyecto:
+Identifica el archivo principal del proyecto. Esto suele ser un archivo main.py o un archivo similar que inicia la aplicación.
+Para ejecutar el archivo principal, usa:
+bash
+Copiar código
+python main.py
+o
+bash
+Copiar código
+python3 main.py

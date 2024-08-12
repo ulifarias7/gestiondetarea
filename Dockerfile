@@ -10,7 +10,7 @@ COPY src/requirements.txt /app/
 # Instala las dependencias desde requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copia todo el contenido de src a /app
+# Copia todo el contenido de src a /src dentro del contenedor
 COPY src/ /src
 
 # Comando por defecto para ejecutar tu aplicación (ajusta según sea necesario)
